@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center; 
+}
+
+.main-content {
+    background-color: #faf8f5;
+    max-width: 800;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.site-header, .site-footer {
+    background-color: #1e4620;
+    color: white;
+    padding: 15px;
+}
+
+.header-nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    color: crimson;
+    font-weight: bold;
+}
+
+.main-content section {
+    padding-bottom: 100px;
+}
+
+.main-content h2 {
+    border-bottom: 2px solid #7dd982;
+    color: #2d7031;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 4px;
+    margin-bottom: 0 auto;
+}
+
+.menu-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 25px;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #3b863f;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #1e5121;
+}
